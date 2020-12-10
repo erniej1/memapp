@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 });
 
 // const CONNECTION_URL =
-//   'mongodb+srv://erniej:abcdefghijk@cluster0.kavol.mongodb.net/<dbname>?retryWrites=true&w=majority';
+
 
 const PORT = process.env.PORT || 5000;
 
