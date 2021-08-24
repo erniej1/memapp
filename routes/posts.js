@@ -2,7 +2,10 @@ import express from 'express';
 //changes go here..and here//
 import { getPosts, createPost, updatePost, deletePost, likePost } from '../controller/posts.js';
 
-const router = express.Router();
+const router = express.Router(
+
+
+//Comment goes here//
 
 router.get('/', getPosts);
 router.post('/', createPost);
