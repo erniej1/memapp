@@ -5,7 +5,7 @@ import { getPosts, createPost, updatePost, deletePost, likePost } from '../contr
 const router = express.Router(
 
 
-//Comment goes here//
+
 
 router.get('/', getPosts);
 router.post('/', createPost);
